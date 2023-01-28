@@ -1,6 +1,15 @@
+################################################################################
+#                                                                              #
+#   Full video tutorial at: https://youtu.be/yNSo6cWpDSM                       #
+#                                                                              #
+#               Data Science Garage at Youtube.com                             #
+#                 (vytautas.bielinskas@gmail.com)                              #
+#                                                                              #
+################################################################################
+
 import openai
 
-openai.api_key = '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'
+openai.api_key = '<YOUR_OPENAI_API_KEY'  # generate it at: https://beta.openai.com/account/api-keys
 
 response = openai.Image.create(
     prompt = "Small letters PATRI STYLE in fire",
